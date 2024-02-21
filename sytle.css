@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi');
+body {
+font-family: "Baloo Thambi", cursive;
+background-color: black;
+}
+
+.container {
+color: black;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+font-size: 5em;
+height: 50vh;
+}
+
+.container span {
+padding: 7px;
+}
+
+.container > span {
+animation: glowGreen 2s ease-in-out infinite;
+}
+
+@keyframes glowGreen {
+0%, 100% {
+color: white;
+text-shadow: 0 0 12px #0008ff, 0 0 50px #0008ff, 0 0 100px #0008ff;
+}
+10%, 90% {
+color: #111;
+text-shadow: none;
+}
+}
+
+.container > span:nth-child(2) {
+animation-delay: 0.25s;
+}
+.container > span:nth-child(3) {
+animation-delay: 0.5s;
+}
+.container > span:nth-child(4) {
+animation-delay: 0.75s;
+}
+.container > span:nth-child(5) {
+animation-delay: 1s;
+}
+
+.container2 {
+color: black;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+font-size: 5em;
+height: 1vh;
+margin-top: -80px;
+}
+
+.container2 span {
+padding: 9px;
+}
+
+.container2 > span {
+animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+0%, 100% {
+color: white;
+text-shadow: 0 0 12px #e81791, 0 0 50px #e81791, 0 0 100px #e81791;
+}
+10%, 90% {
+color: #111;
+text-shadow: none;
+}
+}
+
+.container2 > span:nth-child(2) {
+animation-delay: 0.25s;
+}
+.container2 > span:nth-child(3) {
+animation-delay: 0.5s;
+}
+.container2 > span:nth-child(4) {
+animation-delay: 0.75s;
+}
+.container2 > span:nth-child(5) {
+animation-delay: 1s;
+}
+
+.kata {
+color: #dddada;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center;
+font-family: sans-serif;
+font-weight: bold;
+align-items: center;
+font-size: 1em;
+height: 1vh;
+margin-top: 80px;
+}
+
+.tombol {
+color: black;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+font-size: 5em;
+height: 27vh;
+}
+
+.tombol button {
+background-color: #e81791;
+border: none;
+padding: 16px;
+border-radius: 20px;
+font-family: "Baloo Thambi", cursive;
+font-size: 13px;
+color: #ffff;
+box-shadow: 0 0 5px #e81791, 0 0 25px #e81791;
+}
+
+.tombol button:hover {
+box-shadow: 0 0 5px #e81791, 0 0 25px #e81791, 0 0 50px #e81791, 0 0 100px #e81791, 0 0 200px #e81791;
+}
+
+.dari {
+color: #dddada;
+width: 100%;
+display: flex;
+position: relative;
+justify-content: center;
+font-family: sans-serif;
+font-weight: bold;
+align-items: center;
+font-size: 1em;
+height: 1vh;
+margin-top: 10px;
+}
+
+.dari span {
+color: #1c23e3;
+text-decoration: underline;
+
+}
